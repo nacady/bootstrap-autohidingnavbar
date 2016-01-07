@@ -11,8 +11,7 @@
 	"description": "An extension for Bootstrap's fixed navbar which hides the navbar while the page is scrolling downwards and shows it the other way.",
 	"main": "src/jquery.bootstrap-autohidingnavbar.js",
   "dependencies": {
-    "jquery": ">=1.9.0",
-    "bootstrap": "~3.0"
+    "jquery": ">=1.9.0"
   },
 	"keywords": [
 		"jquery",

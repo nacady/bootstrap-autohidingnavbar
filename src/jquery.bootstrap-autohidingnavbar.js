@@ -181,11 +181,9 @@
     var args = arguments;
 
     if (options === undefined || typeof options === 'object') {
-      return this.each(function() {
         if (!$.data(this, 'plugin_' + pluginName)) {
           $.data(this, 'plugin_' + pluginName, new AutoHidingNavbar(this, options));
         }
-      });
     } else if (typeof options === 'string' && options[0] !== '_' && options !== 'init') {
       var returns;
 
